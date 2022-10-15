@@ -13,14 +13,14 @@ void ftc()
 {
   std::cout << "FAHRENHEIT TO CELCIUS - INPUT VALUE IN F: "<< std::endl;
   std::cin>> inp;
-  res = (inp - 32 * .55555);
+  res = ((inp - 32) * .55555);
   std::cout << "Celsius Value: " << res;
 }
 void ctf()
 {
   std::cout << "CELSIUS TO FAHRENHEIT - INPUT VALUE IN C: " <<std::endl;
   std::cin >> inp;
-  res = (inp * .55555 + 32);
+  res = ((inp * 1.8) + 32);
   std::cout << "Fahrenheit Value: " << res;
 }
 void ftm()
