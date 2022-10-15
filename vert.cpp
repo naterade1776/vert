@@ -67,7 +67,7 @@ void kphtmph()
 }
 void mphtk()
 {
-  std::cout << "KNOTS TO MPH (BECAUSE WHAT THE HELL IS A KNOT?) - INPUT VALUE :" << std::endl;
+  std::cout << "KNOTS TO MPH - INPUT VALUE :" << std::endl;
   std::cin >> inp;
   res = (inp * 1.15);
   std::cout << res;
@@ -189,7 +189,7 @@ int main()
 {
   while (1 > x)
   {
-  std::cout << "\x1B[2J\x1B[H";
+  std::cout << "\x1B[2J\x1B[H";//<clears the console before each loop
   std::cout << "   :::     ::: :::::::::: ::::::::: ::::::::::: " << std::endl;
   std::cout << "  :+:     :+: :+:        :+:    :+:    :+:   "    << std::endl;
   std::cout << " +:+     +:+ +:+        +:+    +:+    +:+     "   << std::endl;
@@ -223,6 +223,7 @@ int main()
   std::cout << "24. Acres to Square Feet"<< std::endl;
   std::cout << "vert >> ";
   std::cin >> comm;
+   //yes, i could have used a switch case, but i didn't want to
   if (comm == 1)
   {
     ftc();
