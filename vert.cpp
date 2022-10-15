@@ -198,7 +198,7 @@ int main()
   std::cout << "#+#+#+#   #+#        #+#    #+#    #+#          " << std::endl;
   std::cout << "###     ########## ###    ###    ###           " << std::endl<<std::endl<<"VERT - A handy unit conversion tool. "<<std::endl<<std::endl;
   std::cout << "1. F° to C°" << std::endl;
-  std::cout << "2. F° to C°"<< std::endl;
+  std::cout << "2. C° to F°"<< std::endl;
   std::cout << "3. Feet to Meters"<< std::endl;
   std::cout << "4. Meters to Feet"<< std::endl;
   std::cout << "5. Pounds to Kilogrsams"<< std::endl;
