@@ -6,6 +6,8 @@
 int comm;
 double inp;
 double res;
+int x = 0;
+std::string ret;
 
 void ftc()
 {
@@ -185,37 +187,154 @@ void atsf()
 
 int main()
 {
+  while (1 > x)
+  {
+  std::cout << "\x1B[2J\x1B[H";
   std::cout << "   :::     ::: :::::::::: ::::::::: ::::::::::: " << std::endl;
   std::cout << "  :+:     :+: :+:        :+:    :+:    :+:   "    << std::endl;
   std::cout << " +:+     +:+ +:+        +:+    +:+    +:+     "   << std::endl;
   std::cout << "+#+     +:+ +#++:++#   +#++:++#:     +#+       "  << std::endl;
   std::cout << "+#+   +#+  +#+        +#+    +#+    +#+         " << std::endl;
   std::cout << "#+#+#+#   #+#        #+#    #+#    #+#          " << std::endl;
-  std::cout << "###     ########## ###    ###    ###           " << std::endl;<<"VERT - A handy unit conversion tool. "<<std::endl;
-  std::cout << "1. F° to C°"; << std::endl;
-  std::cout << "2. F° to C°";<< std::endl;
-  std::cout << "3. Feet to Meters";<< std::endl;
-  std::cout << "4. Meters to Feet";<< std::endl;
-  std::cout << "5. Pounds to Kilogrsams";<< std::endl;
-  std::cout << "6. Kilograms to Pounds";<< std::endl;
-  std::cout << "7. MPH to KPH";<< std::endl;
-  std::cout << "8. KPH to MPH";<< std::endl;
-  std::cout << "9. Knots to MPH";<< std::endl;
-  std::cout << "10. Miles to Kilometers";<< std::endl;
-  std::cout << "11. Kilometers to Miles";<< std::endl;
-  std::cout << "12. Meters to Yards";<< std::endl;
-  std::cout << "13. Inches to Centimeters";<< std::endl;
-  std::cout << "14. Centimeters to Inches";<< std::endl;
-  std::cout << "15. US Gallons to Liters";<< std::endl;
-  std::cout << "16. Liters to US Gallons";<< std::endl;
-  std::cout << "17. US Pints to US Ounces";<< std::endl;
-  std::cout << "18. US Ounces to US Pints";<< std::endl;
-  std::cout << "19. US Gallons to US Ounces";<< std::endl;
-  std::cout << "20. US Ounces to US Gallons";<< std::endl;
-  std::cout << "21. Hogsheads to Gallons";<< std::endl;
-  std::cout << "22. Gallons to Hogsheads";<< std::endl;
-  std::cout << "23. Square Feet to Acres";<< std::endl;
-  std::cout << "24. Acres to Square Feet";<< std::endl;
+  std::cout << "###     ########## ###    ###    ###           " << std::endl<<std::endl<<"VERT - A handy unit conversion tool. "<<std::endl<<std::endl;
+  std::cout << "1. F° to C°" << std::endl;
+  std::cout << "2. F° to C°"<< std::endl;
+  std::cout << "3. Feet to Meters"<< std::endl;
+  std::cout << "4. Meters to Feet"<< std::endl;
+  std::cout << "5. Pounds to Kilogrsams"<< std::endl;
+  std::cout << "6. Kilograms to Pounds"<< std::endl;
+  std::cout << "7. MPH to KPH"<< std::endl;
+  std::cout << "8. KPH to MPH"<< std::endl;
+  std::cout << "9. Knots to MPH"<< std::endl;
+  std::cout << "10. Miles to Kilometers"<< std::endl;
+  std::cout << "11. Kilometers to Miles"<< std::endl;
+  std::cout << "12. Meters to Yards"<< std::endl;
+  std::cout << "13. Inches to Centimeters"<< std::endl;
+  std::cout << "14. Centimeters to Inches"<< std::endl;
+  std::cout << "15. US Gallons to Liters"<< std::endl;
+  std::cout << "16. Liters to US Gallons"<< std::endl;
+  std::cout << "17. US Pints to US Ounces"<< std::endl;
+  std::cout << "18. US Ounces to US Pints"<< std::endl;
+  std::cout << "19. US Gallons to US Ounces"<< std::endl;
+  std::cout << "20. US Ounces to US Gallons"<< std::endl;
+  std::cout << "21. Hogsheads to Gallons"<< std::endl;
+  std::cout << "22. Gallons to Hogsheads"<< std::endl;
+  std::cout << "23. Square Feet to Acres"<< std::endl;
+  std::cout << "24. Acres to Square Feet"<< std::endl;
   std::cout << "vert >> ";
-
+  std::cin >> comm;
+  if (comm == 1)
+  {
+    ftc();
+  }
+  if (comm == 2)
+  {
+    ctf();
+  }
+  if (comm == 3)
+  {
+    ftm();
+  }
+  if (comm == 4)
+  {
+    mtf();
+  }
+  if (comm == 5)
+  {
+    ptk();
+  }
+  if (comm == 6)
+  {
+    ktp();
+  }
+  if (comm == 7)
+  {
+    mphtkph();
+  }
+  if (comm == 8)
+  {
+    kphtmph();
+  }if (comm == 9)
+  {
+    mphtk();
+  }if (comm == 10)
+  {
+    mtk();
+  }
+  if (comm == 11)
+  {
+    ktm();
+  }
+  if (comm == 12)
+  {
+    mty();
+  }
+  if (comm == 13)
+  {
+    ytm();
+  }
+  if (comm == 14)
+  {
+    itc();
+  }
+  if (comm == 15)
+  {
+    gtl();
+  }
+  if (comm == 16)
+  {
+    ltg();
+  }
+  if (comm == 17)
+  {
+    pto();
+  }
+  if (comm == 18)
+  {
+    otp();
+  }
+  if (comm == 19)
+  {
+    gto();
+  }if (comm == 20)
+  {
+    otg();
+  }
+  if (comm == 21)
+  {
+    htg();
+  }
+  if (comm == 22)
+  {
+    gth();
+  }
+  if (comm == 23)
+  {
+    sfta();
+  }
+  if (comm == 24)
+  {
+    atsf();
+  }
+  if (comm == 25)
+  {
+    std::cout << "Nothing yet.";
+  }
+  if (comm == 26)
+  {
+    std::cout << "Nothing yet.";
+  }
+      std::cout << std::endl <<std::endl<<"Press R to return to menu.";
+      std::cin >> ret;
+      if (ret == "r")
+      {
+        x = 0;
+      }
+      if (ret != "r")
+      {
+        x = 5;
+      }
+  }
+  
+  }
 
